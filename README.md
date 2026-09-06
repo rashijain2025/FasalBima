@@ -141,7 +141,4 @@
 
 ---
 
-## 🧾 References  
-
-See full references in our [SIH Pitch Deck PDF](https://drive.google.com/file/d/15TcdNRcjP5n_Hq1UzVrT-LgQpaVAdFHz/view?usp=sharing).  
 
