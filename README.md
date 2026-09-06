@@ -1,5 +1,5 @@
 # 🌾 Fasal Bima — AI-Based Real-Time Crop Image Analytics for Crop Insurance (PMFBY)  
-*Built for Smart India Hackathon 2025 | Team DevSphere*  
+*Built for CodeBuild1.0 Delhi | Team Zenith*  
 
 > **Empowering Farmers, Accelerating Insurance — AI for Transparent, Real-Time Crop Monitoring.**  
 > Fasal Bima leverages deep learning and geospatial intelligence to assess crop health, detect damage, and enable fair, fast insurance claim processing under the PMFBY scheme.
