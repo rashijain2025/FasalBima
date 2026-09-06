@@ -1,0 +1,72 @@
+# -----------------------------
+# FastAPI + Server
+# -----------------------------
+fastapi
+uvicorn[standard]
+
+# -----------------------------
+# Database + ORM + Drivers
+# -----------------------------
+SQLAlchemy
+asyncpg
+psycopg2-binary
+
+# -----------------------------
+# Environment & Config
+# -----------------------------
+python-dotenv
+
+# -----------------------------
+# Security + Authentication + JWT
+# -----------------------------
+passlib[bcrypt]
+PyJWT
+python-jose[cryptography]
+bcrypt
+
+# -----------------------------
+# File Uploads / Media
+# -----------------------------
+python-multipart
+aiofiles
+cloudinary
+
+# -----------------------------
+# Pydantic
+# -----------------------------
+pydantic[email]
+
+# -----------------------------
+# Machine Learning utils
+# (compatible with Python 3.10)
+# -----------------------------
+pillow
+tqdm
+numpy
+matplotlib
+seaborn
+
+# -----------------------------
+# GIS + GEO
+# -----------------------------
+shapely
+geoalchemy2
+
+# -----------------------------
+# Networking + Helpers
+# -----------------------------
+aiohttp
+python-decouple
+
+# -----------------------------
+# PyTorch CPU-friendly (WIN/3.10)
+# -----------------------------
+torch
+torchvision
+torchaudio
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# -----------------------------
+# Optional
+# -----------------------------
+boto3

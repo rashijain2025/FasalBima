@@ -1,0 +1,74 @@
+name: farmer_app
+description: A comprehensive farming app for crop management and disaster reporting
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+
+  geolocator: ^12.0.0 
+  http: ^1.2.0
+  http_parser: ^4.0.2
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+  
+  # UI Components
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+  
+  # Navigation
+  go_router: ^12.1.3
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Image Handling
+  image_picker: ^1.0.4
+  cached_network_image: ^3.3.0
+  
+  # Location Services
+  # geolocator: ^10.1.0
+  geocoding: ^2.1.1
+  
+  # Storage
+  shared_preferences: ^2.2.2
+  sqflite: ^2.3.0
+  
+  # HTTP Requests
+  # http: ^1.1.2
+  
+  # Date/Time
+  intl: ^0.20.3
+  
+  # Charts
+  fl_chart: ^0.65.0
+  
+  # Permissions
+  permission_handler: ^11.1.0
+  
+  # File handling
+  path_provider: ^2.1.2
+  
+  # JSON serialization
+  json_annotation: ^4.8.1
+  
+  # Password hashing
+  crypto: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true

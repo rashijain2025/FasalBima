@@ -1,0 +1,70 @@
+// // Top-level build file for the Android host project.
+// // Keep this file minimal; module-specific configuration stays in `app/build.gradle`.
+
+// allprojects {
+//     repositories {
+//         google()
+//         mavenCentral()
+//     }
+    
+//     // Force all subprojects to use Java 17
+//     afterEvaluate { project ->
+//         if (project.hasProperty('android')) {
+//             project.android {
+//                 if (project.android.hasProperty('compileOptions')) {
+//                     compileOptions {
+//                         sourceCompatibility JavaVersion.VERSION_17
+//                         targetCompatibility JavaVersion.VERSION_17
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// subprojects {
+//     afterEvaluate { project ->
+//         if (project.hasProperty('android')) {
+//             project.android {
+//                 compileOptions {
+//                     sourceCompatibility JavaVersion.VERSION_17
+//                     targetCompatibility JavaVersion.VERSION_17
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// Top-level build file for the Android host project.
+// Keep this file minimal; module-specific configuration stays in `app/build.gradle`.
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = '../build'
+
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+
+    // Optional but nice: force Java 17 per-module
+    afterEvaluate { p ->
+        if (p.hasProperty("android")) {
+            p.android {
+                if (hasProperty("compileOptions")) {
+                    compileOptions {
+                        sourceCompatibility JavaVersion.VERSION_17
+                        targetCompatibility JavaVersion.VERSION_17
+                    }
+                }
+            }
+        }
+    }
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
