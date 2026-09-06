@@ -48,7 +48,7 @@
 | **Layer** | **Technology Used** |
 |------------|--------------------|
 | **Frontend (Admin Dashboard)** | React + TypeScript, Redux Toolkit, Mapbox GL JS, Tailwind CSS, Chart.js |
-| **Mobile App (Farmer)** | Flutter (Dart), Offline Mode, Geo-Tagging, Multilingual UI |
+| **Mobile App (Farmer)** | Reac-native, Offline Mode, Geo-Tagging, Multilingual UI |
 | **Backend** | FastAPI (Python), REST APIs, JWT Auth, Async Processing |
 | **AI / ML** | PyTorch, ResNet50 (fine-tuned), Grad-CAM, OpenCV |
 | **Database** | PostgreSQL + PostGIS (geo data), AWS S3 (image storage) |
@@ -106,26 +106,6 @@
 ---
 
 
-## 🎥 Demonstration Video  
-
-| **Type** | **Link** |
-|-----------|----------|
-| ▶️ **Project Demo Video** | [Watch on YouTube](https://youtube.com/shorts/HI8eIYwZK2I)
-
----
-
-## 🚀 Quick Start  
-
-| **Step** | **Command** |
-|-----------|-------------|
-| **1️⃣ Clone Repo** | `git clone https://github.com/jeetgoyal80/CROPIC-AI.git` |
-| **2️⃣ Install Backend Deps** | `pip install -r requirements.txt` |
-| **3️⃣ Start FastAPI Server** | `uvicorn main:app --reload` |
-| **4️⃣ Run Flutter App** | `flutter run` |
-| **5️⃣ Launch Dashboard** | `cd Frontend && npm install && npm run dev` |
-
----
-
 ## 🔒 Privacy & Ethics  
 
 | **Principle** | **Implementation** |
@@ -148,19 +128,6 @@
 
 ---
 
-## 👥 Team DevSphere  
-
-| **Member** | **Role** | **Responsibility** |
-|-------------|----------|--------------------|
-| **Jeet Goyal** | AI Lead & System Architect | Designed and trained the ResNet50-based AI model, managed system architecture, and backend integration. |
-| **Rakshit Hinduja** | App Developer | Built the Flutter-based farmer mobile application with offline sync, geo-tagging, and AI-guided capture features. |
-| **Harshil Khandelwal** | Web Developer | Developed the insurance officer dashboard and integrated frontend with backend APIs. |
-| **Madhav Gupta** | Backend Developer | Implemented FastAPI backend, database models, and API endpoints for AI inference and data management. |
-| **Neelam Patidar** | Research Lead | Conducted research on crop disease datasets, AI model selection, and performance optimization. |
-| **Vedika Vishwakarma** | Presentation & Media Lead | Created the final PPT, YouTube demonstration video, and documentation for project presentation. |
-
-
----
 
 ## 🏁 Project Status  
 
@@ -178,6 +145,3 @@
 
 See full references in our [SIH Pitch Deck PDF](https://drive.google.com/file/d/15TcdNRcjP5n_Hq1UzVrT-LgQpaVAdFHz/view?usp=sharing).  
 
----
-
-© 2025 **Team DevSphere** | Built for **Smart India Hackathon 2025**
